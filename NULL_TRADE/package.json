@@ -1,0 +1,27 @@
+{
+  "name": "null-trade",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "hiraki": "^0.0.7",
+    "preact": "^10.29.1",
+    "preact-router": "^4.1.2",
+    "sonner": "^2.0.7",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.5",
+    "@types/node": "^24.12.3",
+    "sharp": "^0.34.5",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12"
+  },
+  "packageManager": "pnpm@11.11.0+sha512.4463f65fd80ed80d69bc1d4bf163ee94f605c7380fc318bb5b2ebe15f8cd12d49c51a4d59e951b401e764d3b6ca751cbf51bc50ed7001a6bcb4935e684c34882"
+}
