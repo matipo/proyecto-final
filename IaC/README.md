@@ -6,13 +6,7 @@ Infraestructura cloud para una plataforma de compraventa de videojuegos, definid
 
 ## Arquitectura general
 
-```
-Usuario → CloudFront (CDN + SSL) → ALB → ECS Fargate (nginx + SPA)
-                                              ↓
-                                     API Gateway HTTP API
-                                              ↓
-                                       Lambda → DynamoDB
-```
+El diagrama de infraestructura detallado se encuentra en [`infrastructure.html`](infrastructure.html).
 
 El tráfico sigue esta ruta:
 1. **CloudFront** termina SSL y redirige HTTP a HTTPS. El origen apunta al ALB, restringido mediante prefix list de CloudFront.
